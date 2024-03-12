@@ -7,10 +7,10 @@ const MeuBotao = (props: any) => {
 const App = () => {
     return (
       <div>
-        <h1>Bem vindo ao mundo React</h1>
-        <MeuBotao titulo="primeiro"/>
-        <MeuBotao titulo="segundo"/>
-        <MeuBotao titulo="terceiro"/>
+        <h1>The color brothers</h1>
+        <MeuBotao titulo="I'm saturation"/>
+        <MeuBotao titulo="I'm hue"/>
+        <MeuBotao titulo="I'm brightness"/>
       </div>
     );
   }
