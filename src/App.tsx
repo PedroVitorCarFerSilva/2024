@@ -6,7 +6,7 @@ const MeuBotao = (props: any) => {
 
 const App = () => {
     return (
-      <div class="aplicacao">
+      <div className="aplicacao">
         <h1>The color brothers</h1>
         <MeuBotao titulo="I'm saturation"/>
         <MeuBotao titulo="I'm hue"/>
