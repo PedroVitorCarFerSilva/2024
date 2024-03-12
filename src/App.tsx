@@ -1,10 +1,12 @@
+import "./App.css";
+
 const MeuBotao = (props: any) => {
     return <button>{props.titulo}</button>;
 }
 
 const App = () => {
     return (
-      <div>
+      <div class="aplicacao">
         <h1>The color brothers</h1>
         <MeuBotao titulo="I'm saturation"/>
         <MeuBotao titulo="I'm hue"/>
