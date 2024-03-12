@@ -1,3 +1,9 @@
+const MeuBotao = () => {
+    return(
+        <button>meubutao</button>
+    );
+}
+
 const App = () => {
     return (
       <div>
