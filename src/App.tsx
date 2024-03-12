@@ -1,6 +1,6 @@
-const MeuBotao = () => {
+const MeuBotao = (props: any) => {
     return(
-        <button>meubutao</button>
+        <button>{props.titulo}</button>
     );
 }
 
@@ -8,9 +8,9 @@ const App = () => {
     return (
       <div>
         <h1>Bem vindo ao mundo React</h1>
-        <MeuBotao />
-        <MeuBotao />
-        <MeuBotao />
+        <MeuBotao titulo="primeiro"/>
+        <MeuBotao titulo="segundo"/>
+        <MeuBotao titulo="terceiro"/>
       </div>
     );
   }
