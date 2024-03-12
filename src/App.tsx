@@ -1,7 +1,5 @@
 const MeuBotao = (props: any) => {
-    return(
-        <button>{props.titulo}</button>
-    );
+    return <button>{props.titulo}</button>;
 }
 
 const App = () => {
